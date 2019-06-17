@@ -12,43 +12,43 @@ let category = {
                 img: '../assets/images/portfolio_images/webdevelopment/screen-shot-0.png',
                 title: 'Crystals Collector JS Game', 
                 // explaining the aims, outcomes, significance and benefits
-                desc: ''
+                desc: 'Built my first Front End JS game for the browser. This simple project helped me to understand how objects and call back functions work.'
             },
             {
                 img: '../assets/images/portfolio_images/webdevelopment/screen-shot-1.png',
                 title: 'Webb Webb & Web', 
                 // explaining the aims, outcomes, significance and benefits
-                desc: ''
+                desc: 'Launched my first collaborated mock freelancing business website for the Richmond Area. Wire-framed and designed in Adobe Xd, and utilized preprocessing technologies such as Sass and Scss. Completely hand-coded this website from scratch without utilizing any frame works to demonstrate understanding of web hosting, registering domains, deploying to the web, html, css, Javascript, sass, and UI/UX design.'
             },
             {
                 img: '../assets/images/portfolio_images/webdevelopment/screen-shot-2.png',
                 title: 'Check Events', 
                 // explaining the aims, outcomes, significance and benefits
-                desc: ''
+                desc: 'Collaborated with a small team of developers at the University of Richmond to build a web application that allows the user to discover local events. The idea of the app was to motivate people to get out and live, and was built for fellow introverts who desire sponteniety. For this project, I decided to work on the Back-End team, gaining experience with making API calls, saving data with Session and Local storage, setting up a remote database using Google\'s Firebase, and dynamically rendering data to the DOM using javascript.'
             },
             {
                 img: '../assets/images/portfolio_images/webdevelopment/screen-shot-3.png',
                 title: 'Jibe Web Application', 
                 // explaining the aims, outcomes, significance and benefits
-                desc: ''
+                desc: 'Jibe is a mock dating app that connects users to like minded individuals. The idea behind this project was to promote harmonious relationships by utilizing a simple algorith that matches the user with another who shares the closest survey scores. No database technology was utilized to build this application, which helped me understand alternative ways of storing data. The survey captures basic contact information from the user, a link to a photo of the user, as well as the user\'s survey scores, and stores it into a JSON object. Upon submission of the survey, the algorithm is ran and returns the closest match.'
             },
             {
                 img: '../assets/images/portfolio_images/webdevelopment/screen-shot-4.png',
                 title: 'Albumize', 
                 // explaining the aims, outcomes, significance and benefits
-                desc: ''
+                desc: 'Albumize is a music blog for users to be able to share thoughts on music. It is a place to connect people to others who share similar tastes or preferences on the songs we all love. \nI decided to work on the Back-End on this project, to hone in on the javascript. In this collaberative project, I was responsible for building a RESTful API to serve routes that interfaced with the database. I gained lots of experience setting up and deploying a MySql database to Heroku, validating data with Node JS technologies like Sequelize, interfacing with APIs, setting up a dynamic Express server, working with .env files to protect API keys and sensitive data, UI/UX for user profiles, handling login and registration of users, practicing MVC standards, and dynamically rendering components of the DOM using Handlebars.'
             },
             {
                 img: '../assets/images/portfolio_images/webdevelopment/screen-shot-5.png',
                 title: 'Rebit', 
                 // explaining the aims, outcomes, significance and benefits
-                desc: ''
+                desc: 'Rebit is a mock company I invented for the purposes of sharpening my Front-End skills. Rebit is pronounced "Ribbit," like a frog\'s croak (hence the logo), but represents a digital agency (hence the spelling Re[bit]) that helps automate various exhaustive financial processes involved in Commercial real estate transactions. This simple project helped me understand the various ways one can scaffold Bootstrap 4\'s components to achieve a responsive, desireable layout. The design of the website was google searched, and I coded it from scratch. This demonstrates my ability to convert .PSD layouts or designs from a Web Designer into a responsive, pixel perfect, functional, static web page.'
             },
             {
                 img: '../assets/images/portfolio_images/webdevelopment/screen-shot-6.png',
                 title: 'Ketamine Clinic', 
                 // explaining the aims, outcomes, significance and benefits
-                desc: ''
+                desc: 'Ketamine Clinic is a mock company I\'m promoting for the purposes of polishing my Front-End skills. This was another project that was inspired by randomly Google searching a layout, and coding it. I gained more comfortability using Bootstrap 4, successfully converting this design to a functional, responsive static web page.'
             }
         ]
     },
@@ -148,19 +148,19 @@ let category = {
         images: [
             {
                 img: '../assets/images/portfolio_images/prints/art-0.png',
-                title: '', 
+                title: 'Bold As Lions', 
                 // explaining the aims, outcomes, significance and benefits
                 desc: ''
             },
             {
                 img: '../assets/images/portfolio_images/prints/art-1.png',
-                title: '', 
+                title: 'Hair Like Wool', 
                 // explaining the aims, outcomes, significance and benefits
                 desc: ''
             },
             {
                 img: '../assets/images/portfolio_images/prints/art-2.png',
-                title: '', 
+                title: 'Overcome', 
                 // explaining the aims, outcomes, significance and benefits
                 desc: ''
             }
