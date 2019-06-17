@@ -1,0 +1,117 @@
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	body {
+		margin: auto;
+		padding: 0;
+		height: auto;
+		width: 100%;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		* {
+			outline: none;
+		}
+		
+		#app {
+				height: auto;
+				width: 100%;
+			}
+		
+		#content {
+			height: auto;
+			// overflow: hidden;
+			overflow-y: scroll;
+		}	
+
+		.h-50px {
+			height: 50px;
+		}
+
+		.carousel-control-prev,
+		.carousel-control-next {
+			margin-top: 30%;
+			height: 50%;
+			width: 25px;
+			background-color: #333;
+			border-radius: 5px;
+			opacity: 0.075;
+			// border: 1px solid red;
+		}
+		
+		.carousel-item {
+			min-height: 25rem;
+		}
+		
+		// .slide_sheet {
+		// 	height: 600px;
+		// }
+
+		// Small devices (landscape phones, 576px and up)
+		@media (min-width: 576px) {
+			boday {
+				margin: 0;
+			}
+			#app {
+				height: 100%;
+			}
+			#main_card {
+				// border: 1px solid #343a3f;
+				box-shadow: 0 5px 6px rgba(60, 60, 60, 0.15);
+			}
+
+			.carousel-control-prev,
+			.carousel-control-next {
+				margin-top: 2rem;
+				height: 80%;
+				width: 25px;
+				background-color: #333;
+				border-radius: 5px;
+				opacity: 0.075;
+				// border: 1px solid red;
+			}
+			
+		}
+
+		// Medium devices (tablets, 768px and up)
+		@media (min-width: 768px) {
+			.h-md-25 {
+				height: 25%;
+			}
+
+			.h-md-75 {
+				height: 75%;
+			}
+
+			.h-md-50 {
+				height: 50%;
+			}
+
+			.h-md-100px {
+				height: 100px;
+			}
+
+			.h-md-100 {
+				height: 100%;
+			}
+
+			#app {
+				height: 90%;
+				// max-height: 90%;
+				width: 100%;
+			}
+
+			#content {
+				height: 30rem;
+			}
+		}
+	}
+}

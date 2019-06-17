@@ -1,0 +1,114 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body {
+  margin: auto;
+  padding: 0;
+  height: auto;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html body * {
+  outline: none;
+}
+
+html body #app {
+  height: auto;
+  width: 100%;
+}
+
+html body #content {
+  height: auto;
+  overflow-y: scroll;
+}
+
+html body .h-50px {
+  height: 50px;
+}
+
+html body .carousel-control-prev,
+html body .carousel-control-next {
+  margin-top: 30%;
+  height: 50%;
+  width: 25px;
+  background-color: #333;
+  border-radius: 5px;
+  opacity: 0.075;
+}
+
+html body .carousel-item {
+  min-height: 25rem;
+}
+
+@media (min-width: 576px) {
+  html body boday {
+    margin: 0;
+  }
+  html body #app {
+    height: 100%;
+  }
+  html body #main_card {
+    -webkit-box-shadow: 0 5px 6px rgba(60, 60, 60, 0.15);
+            box-shadow: 0 5px 6px rgba(60, 60, 60, 0.15);
+  }
+  html body .carousel-control-prev,
+  html body .carousel-control-next {
+    margin-top: 2rem;
+    height: 80%;
+    width: 25px;
+    background-color: #333;
+    border-radius: 5px;
+    opacity: 0.075;
+  }
+}
+
+@media (min-width: 768px) {
+  html body .h-md-25 {
+    height: 25%;
+  }
+  html body .h-md-75 {
+    height: 75%;
+  }
+  html body .h-md-50 {
+    height: 50%;
+  }
+  html body .h-md-100px {
+    height: 100px;
+  }
+  html body .h-md-100 {
+    height: 100%;
+  }
+  html body #app {
+    height: 90%;
+    width: 100%;
+  }
+  html body #content {
+    height: 30rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
