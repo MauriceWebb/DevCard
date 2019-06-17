@@ -1,8 +1,5 @@
 // targets
-var $gallery = $('.gallery');
-var $prev = $('#prev');
-var $next = $('#next');
-var $catTitle = $('#category_title');
+let $gallery = $('.gallery');
 
 // portfolio contents
 let category = {
@@ -12,43 +9,57 @@ let category = {
                 img: '../assets/images/portfolio_images/webdevelopment/screen-shot-0.png',
                 title: 'Crystals Collector JS Game', 
                 // explaining the aims, outcomes, significance and benefits
-                desc: 'Built my first Front End JS game for the browser. This simple project helped me to understand how objects and call back functions work.'
+                desc: 'Built my first Front End JS game for the browser. This simple project helped me to understand how objects and call back functions work.',
+                demo: 'https://mauricewebb.github.io/UOR_CB_ClassWork/Unit-4-Game/index.html',
+                code: 'https://github.com/MauriceWebb/UOR_CB_ClassWork/tree/master/Unit-4-Game'
             },
             {
                 img: '../assets/images/portfolio_images/webdevelopment/screen-shot-1.png',
                 title: 'Webb Webb & Web', 
                 // explaining the aims, outcomes, significance and benefits
-                desc: 'Launched my first collaborated mock freelancing business website for the Richmond Area. Wire-framed and designed in Adobe Xd, and utilized preprocessing technologies such as Sass and Scss. Completely hand-coded this website from scratch without utilizing any frame works to demonstrate understanding of web hosting, registering domains, deploying to the web, html, css, Javascript, sass, and UI/UX design.'
+                desc: 'Launched my first collaborated mock freelancing business website for the Richmond Area. Wire-framed and designed in Adobe Xd, and utilized preprocessing technologies such as Sass and Scss. Completely hand-coded this website from scratch without utilizing any frame works to demonstrate understanding of web hosting, registering domains, deploying to the web, html, css, Javascript, sass, and UI/UX design.',
+                demo: 'https://www.webbwebbandweb.com/',
+                code: 'https://github.com/MauriceWebb/WebbWebbandWeb'
             },
             {
                 img: '../assets/images/portfolio_images/webdevelopment/screen-shot-2.png',
                 title: 'Check Events', 
                 // explaining the aims, outcomes, significance and benefits
-                desc: 'Collaborated with a small team of developers at the University of Richmond to build a web application that allows the user to discover local events. The idea of the app was to motivate people to get out and live, and was built for fellow introverts who desire sponteniety. For this project, I decided to work on the Back-End team, gaining experience with making API calls, saving data with Session and Local storage, setting up a remote database using Google\'s Firebase, and dynamically rendering data to the DOM using javascript.'
+                desc: 'Collaborated with a small team of developers at the University of Richmond to build a web application that allows the user to discover local events. The idea of the app was to motivate people to get out and live, and was built for fellow introverts who desire sponteniety. For this project, I decided to work on the Back-End team, gaining experience with making API calls, saving data with Session and Local storage, setting up a remote database using Google\'s Firebase, and dynamically rendering data to the DOM using javascript.',
+                demo: null,
+                code: 'https://github.com/sherriemcnulty/check-events/tree/maurice'
             },
             {
                 img: '../assets/images/portfolio_images/webdevelopment/screen-shot-3.png',
                 title: 'Jibe Web Application', 
                 // explaining the aims, outcomes, significance and benefits
-                desc: 'Jibe is a mock dating app that connects users to like minded individuals. The idea behind this project was to promote harmonious relationships by utilizing a simple algorith that matches the user with another who shares the closest survey scores. No database technology was utilized to build this application, which helped me understand alternative ways of storing data. The survey captures basic contact information from the user, a link to a photo of the user, as well as the user\'s survey scores, and stores it into a JSON object. Upon submission of the survey, the algorithm is ran and returns the closest match.'
+                desc: 'Jibe is a mock dating app that connects users to like minded individuals. The idea behind this project was to promote harmonious relationships by utilizing a simple algorith that matches the user with another who shares the closest survey scores. No database technology was utilized to build this application, which helped me understand alternative ways of storing data. The survey captures basic contact information from the user, a link to a photo of the user, as well as the user\'s survey scores, and stores it into a JSON object. Upon submission of the survey, the algorithm is ran and returns the closest match.',
+                demo: 'https://pure-reaches-15786.herokuapp.com/',
+                code: 'https://github.com/MauriceWebb/JIBE-App'
             },
             {
                 img: '../assets/images/portfolio_images/webdevelopment/screen-shot-4.png',
                 title: 'Albumize', 
                 // explaining the aims, outcomes, significance and benefits
-                desc: 'Albumize is a music blog for users to be able to share thoughts on music. It is a place to connect people to others who share similar tastes or preferences on the songs we all love. \nI decided to work on the Back-End on this project, to hone in on the javascript. In this collaberative project, I was responsible for building a RESTful API to serve routes that interfaced with the database. I gained lots of experience setting up and deploying a MySql database to Heroku, validating data with Node JS technologies like Sequelize, interfacing with APIs, setting up a dynamic Express server, working with .env files to protect API keys and sensitive data, UI/UX for user profiles, handling login and registration of users, practicing MVC standards, and dynamically rendering components of the DOM using Handlebars.'
+                desc: 'Albumize is a music blog for users to be able to share thoughts on music. It is a place to connect people to others who share similar tastes or preferences on the songs we all love. \nI decided to work on the Back-End on this project, to hone in on the javascript. In this collaberative project, I was responsible for building a RESTful API to serve routes that interfaced with the database. I gained lots of experience setting up and deploying a MySql database to Heroku, validating data with Node JS technologies like Sequelize, interfacing with APIs, setting up a dynamic Express server, working with .env files to protect API keys and sensitive data, UI/UX for user profiles, handling login and registration of users, practicing MVC standards, and dynamically rendering components of the DOM using Handlebars.',
+                demo: 'https://glacial-tundra-34381.herokuapp.com/',
+                code: 'https://github.com/jll9qw/AlbumReviewBlog/tree/maurice'
             },
             {
                 img: '../assets/images/portfolio_images/webdevelopment/screen-shot-5.png',
                 title: 'Rebit', 
                 // explaining the aims, outcomes, significance and benefits
-                desc: 'Rebit is a mock company I invented for the purposes of sharpening my Front-End skills. Rebit is pronounced "Ribbit," like a frog\'s croak (hence the logo), but represents a digital agency (hence the spelling Re[bit]) that helps automate various exhaustive financial processes involved in Commercial real estate transactions. This simple project helped me understand the various ways one can scaffold Bootstrap 4\'s components to achieve a responsive, desireable layout. The design of the website was google searched, and I coded it from scratch. This demonstrates my ability to convert .PSD layouts or designs from a Web Designer into a responsive, pixel perfect, functional, static web page.'
+                desc: 'Rebit is a mock company I invented for the purposes of sharpening my Front-End skills. Rebit is pronounced "Ribbit," like a frog\'s croak (hence the logo), but represents a digital agency (hence the spelling Re[bit]) that helps automate various exhaustive financial processes involved in Commercial real estate transactions. This simple project helped me understand the various ways one can scaffold Bootstrap 4\'s components to achieve a responsive, desireable layout. The design of the website was google searched, and I coded it from scratch. This demonstrates my ability to convert .PSD layouts or designs from a Web Designer into a responsive, pixel perfect, functional, static web page.',
+                demo: 'https://codepen.io/MauriceWebb/full/BgBqNN',
+                code: 'https://codepen.io/MauriceWebb/pen/BgBqNN?editors=1100'
             },
             {
                 img: '../assets/images/portfolio_images/webdevelopment/screen-shot-6.png',
                 title: 'Ketamine Clinic', 
                 // explaining the aims, outcomes, significance and benefits
-                desc: 'Ketamine Clinic is a mock company I\'m promoting for the purposes of polishing my Front-End skills. This was another project that was inspired by randomly Google searching a layout, and coding it. I gained more comfortability using Bootstrap 4, successfully converting this design to a functional, responsive static web page.'
+                desc: 'Ketamine Clinic is a mock company I\'m promoting for the purposes of polishing my Front-End skills. This was another project that was inspired by randomly Google searching a layout, and coding it. I gained more comfortability using Bootstrap 4, successfully converting this design to a functional, responsive static web page.',
+                demo: 'https://codepen.io/MauriceWebb/full/dBobBr',
+                code: 'https://codepen.io/MauriceWebb/pen/dBobBr?editors=1100'
             }
         ]
     },
@@ -189,7 +200,12 @@ function render_gallery() {
 }
 
 function build_card (logo, i, category) {
-    let card = $('<div>').attr({'data-desc': logo.desc,'class': 'card pop border-0'});
+    let card = $('<div>').attr({
+        'data-desc': logo.desc,
+        'class': 'card pop border-0',
+        'data-demo': logo.demo,
+        'data-code': logo.code
+    });
     let image = $('<img>').attr({'src': logo.img, 'class': 'img-fluid'});
     let card_body = $('<div>').attr('class', 'card-body p-0');
     let card_title = $('<h5>').attr('class', 'card-title text-light bg-dark text-center m-0 p-3');
@@ -202,14 +218,31 @@ function build_card (logo, i, category) {
     card_body.append(card_title);
     card.append(image, card_body);
 
-    $(`#${category}_slide .gallery`).append(card);
-
-    $('.pop').on('click', function() {
-        $('.imagepreview').attr('src', $(this).find('img').attr('src'));
-        $('#modal_desc').attr('class', 'm-0 p-3 bg-light text-dark').text($(this).attr('data-desc'));
-		$('#imagemodal').modal('show');   
-	});		
+    $(`#${category}_slide .gallery`).append(card);	
 }
+
+// function add_buttons (a, b, c) {
+//     $('#imagemodal .modal-body').append(a.attr('href', $(this).attr('data-demo')));
+//     $('#imagemodal .modal-body').append(b.attr('href', $(this).attr('data-code')));
+// }
 
 // Main
 render_gallery();
+
+// Event Listeners...
+$(document).on('click', '.pop', function(e) {
+    e.preventDefault();
+
+    $('#modal_links').empty();
+    // $('#imagemodal .modal-body').remove('#card_code');
+
+    let card_demo = $(this).attr('data-demo') ? $('<a>').attr({'class': 'btn btn-dark p-3 m-3 align-self-center align-self-md-start text-light', 'id': 'card_demo'}).text('DEMO') : $('<a>').addClass('d-none');
+    let card_code = $(this).attr('data-code') ? $('<a>').attr({'class': 'btn btn-dark p-3 m-3 align-self-center align-self-md-start text-light', 'id': 'card_code'}).text('View Code') : $('<a>').addClass('d-none');
+    $('.imagepreview').attr('src', $(this).find('img').attr('src'));
+    $(this).attr('data-desc') ? $('#modal_desc').attr('class', 'm-0 p-3 bg-light text-dark').text($(this).attr('data-desc')).show() : $('#modal_desc').hide();
+    $('#imagemodal').modal('show');
+    // add_buttons(card_demo, card_code, e);
+    
+    $('#modal_links').append(card_demo.attr('href', $(this).attr('data-demo')));
+    $('#modal_links').append(card_code.attr('href', $(this).attr('data-code')));
+});	
