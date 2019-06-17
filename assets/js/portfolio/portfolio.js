@@ -175,8 +175,10 @@ let category = {
 
 function render_gallery() {
 // populate gallery
-    // first empty current gallery
+    // first empty current gallery...
     $gallery.empty();
+    // prevent right-click on images...
+    $('#content').on('contextmenu', 'img', function(e){ return false; });
 
 
     category.webDevelopment.images.forEach( (project, i) => build_card(project, i, 'webDevelopment'));
