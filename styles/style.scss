@@ -30,6 +30,12 @@ html {
 			height: auto;
 			// overflow: hidden;
 			overflow-y: scroll;
+
+			.pop {
+				img:hover {
+					cursor: pointer;
+				}
+			}
 		}	
 
 		.h-50px {
