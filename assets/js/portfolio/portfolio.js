@@ -75,43 +75,43 @@ let category = {
                 img: '../assets/images/portfolio_images/logos/art-1.png', 
                 title: 'Symmetry Gaming',
                 // explaining the aims, outcomes, significance and benefits
-                desc: ''
+                desc: 'Symmetry Gamming is a competitive E-Sports gaming organization. The client wanted a logo fit for it\'s name. I rendered a labyrinth styled logo.'
             },
             {
                 img: '../assets/images/portfolio_images/logos/art-2.png', 
-                title: 'Web of Webb',
+                title: 'W3bb',
                 // explaining the aims, outcomes, significance and benefits
-                desc: ''
+                desc: 'Webb Webb & Web is a mock collaborative freelancing firm for web development projects.'
             },
             {
                 img: '../assets/images/portfolio_images/logos/art-3.png', 
                 title: 'Love Flowers, LLC',
                 // explaining the aims, outcomes, significance and benefits
-                desc: ''
+                desc: 'Love Flowers is a local flower shop that delivers tropical plants from South America for romantic occasions. I rendered a Heliconia plant styled logo.'
             },
             {
                 img: '../assets/images/portfolio_images/logos/art-4.png', 
                 title: 'Tyranturla',
                 // explaining the aims, outcomes, significance and benefits
-                desc: ''
+                desc: 'Tyranturla is a mock web scraping agency that crawls the web for useful data and contructs free accessible APIs for developers. Since this agency specializes in web crawlers, the logo resembles a spider.'
             },
             {
                 img: '../assets/images/portfolio_images/logos/art-5.png', 
                 title: 'NG Pro Gaming',
                 // explaining the aims, outcomes, significance and benefits
-                desc: ''
+                desc: 'Nuisance Gaming is a competitive E-Sports gaming organization. The client wanted a logo fit for it\'s name. I rendered a typographical styled logo that subtly displays the org\'s initials.'
             },
             {
                 img: '../assets/images/portfolio_images/logos/art-6.png', 
                 title: 'Future World of Israel',
                 // explaining the aims, outcomes, significance and benefits
-                desc: ''
+                desc: 'Future world of Israel is a Judeo-Christian church that wanted a logo that expressed their interpretation of Isaiah 45:17 and incorporated their church\'s colors - blue and gold. The two shofars represent the Northern and Southen kingdoms of Israel, or the Jews and Gentiles. The seven flames represent the seven candlestick menorah of Israel.'
             },
             {
                 img: '../assets/images/portfolio_images/logos/art-7.png', 
                 title: 'SKSK Gaming',
                 // explaining the aims, outcomes, significance and benefits
-                desc: ''
+                desc: 'Scary Kids Scaring Kids is a competitive E-Sports gaming organization. The client wanted a logo fit for it\'s name. I rendered a silhouette styled logo that illustrates a street gang turning the city upside down.'
             }
         ]
     },
@@ -161,19 +161,19 @@ let category = {
                 img: '../assets/images/portfolio_images/prints/art-0.png',
                 title: 'Bold As Lions', 
                 // explaining the aims, outcomes, significance and benefits
-                desc: ''
+                desc: 'T-shirt designed for OriginalRoyalty.com. Contact me to purchase a print!'
             },
             {
                 img: '../assets/images/portfolio_images/prints/art-1.png',
                 title: 'Hair Like Wool', 
                 // explaining the aims, outcomes, significance and benefits
-                desc: ''
+                desc: 'T-shirt designed for OriginalRoyalty.com. Contact me to purchase a print!'
             },
             {
                 img: '../assets/images/portfolio_images/prints/art-2.png',
                 title: 'Overcome', 
                 // explaining the aims, outcomes, significance and benefits
-                desc: ''
+                desc: 'This powerful piece is a montage of paintings and images of the Trans Atlantic Slave Trade. It displays the challenges African Americans faced during the early 1600s and the will to overcome. Print was released as a Black History project while enrolled in VCU\'s School of Arts program.'
             }
         ]
     },
