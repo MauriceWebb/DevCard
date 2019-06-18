@@ -237,12 +237,21 @@ $(document).on('click', '.pop', function(e) {
     // $('#imagemodal .modal-body').remove('#card_code');
 
     let card_demo = $(this).attr('data-demo') ? $('<a>').attr({'class': 'btn btn-dark p-3 m-3 align-self-center align-self-md-start text-light', 'id': 'card_demo'}).text('DEMO') : $('<a>').addClass('d-none');
+
     let card_code = $(this).attr('data-code') ? $('<a>').attr({'class': 'btn btn-dark p-3 m-3 align-self-center align-self-md-start text-light', 'id': 'card_code'}).text('View Code') : $('<a>').addClass('d-none');
+    
     $('.imagepreview').attr('src', $(this).find('img').attr('src'));
     $(this).attr('data-desc') ? $('#modal_desc').attr('class', 'm-0 p-3 bg-light text-dark').text($(this).attr('data-desc')).show() : $('#modal_desc').hide();
     $('#imagemodal').modal('show');
     // add_buttons(card_demo, card_code, e);
     
-    $('#modal_links').append(card_demo.attr('href', $(this).attr('data-demo')));
-    $('#modal_links').append(card_code.attr('href', $(this).attr('data-code')));
+    $('#modal_links').append(card_demo.attr({
+        'href': $(this).attr('data-demo'),
+        'target': '_blank'
+    }));
+
+    $('#modal_links').append(card_code.attr({
+        'href': $(this).attr('data-code'),
+        'target': '_blank'
+    }));
 });	
