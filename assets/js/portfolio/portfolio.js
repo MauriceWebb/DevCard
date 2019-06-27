@@ -6,6 +6,14 @@ let category = {
     webDevelopment: {
         images: [
             {
+                img: '../assets/images/portfolio_images/webdevelopment/screen-shot-7.png',
+                title: 'Guestination React JS Game', 
+                // explaining the aims, outcomes, significance and benefits
+                desc: 'Built my first React JS game for the browser. The user clicks on the random images and gets a point each time an image is clicked. After an image is clicked, the images are scrambled and the user can click again to gain points. Once the user clicks an image twice, the game resets, storing their highest score. This project helped me to understand how to build and deploy a react application from scratch, build custom components, link custom stylesheets to those components, utilize state, and pass props into components.',
+                demo: 'https://mauricewebb.github.io/Guestination/',
+                code: 'https://github.com/MauriceWebb/Guestination/tree/master'
+            },
+            {
                 img: '../assets/images/portfolio_images/webdevelopment/screen-shot-0.png',
                 title: 'Crystals Collector JS Game', 
                 // explaining the aims, outcomes, significance and benefits
