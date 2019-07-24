@@ -82,6 +82,12 @@ let category = {
     logos: {
         images: [
             {
+                img: '../assets/images/portfolio_images/logos/art-8.png',
+                title: 'Urbit', 
+                // explaining the aims, outcomes, significance and benefits
+                desc: 'The aim of this design was to render a modern, minimal typographical logo that delivers a holistic, natural care message.'
+            },
+            {
                 img: '../assets/images/portfolio_images/logos/art-0.png',
                 title: 'Bahashem Soaps, LLC', 
                 // explaining the aims, outcomes, significance and benefits
