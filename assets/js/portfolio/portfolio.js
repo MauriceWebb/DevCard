@@ -6,6 +6,14 @@ let category = {
     webDevelopment: {
         images: [
             {
+                img: '../assets/images/portfolio_images/webdevelopment/screen-shot-8.png',
+                title: 'Urbit', 
+                // explaining the aims, outcomes, significance and benefits
+                desc: 'URBIT (pronounced herb·it) is a botanical index and resource for holistic health. This online community provides a platform for noobs and health nuts to get the latest trends on herbal therapies or obtain recommendations on our indexed herbs. Only our subscribers are able to post and comment our indexed resources. A subscriber is able to build a profile and search holistic medicine solutions through the application’s customized-API. The mission of URBIT is to create a wellness community. A place where subscribers can feel comfortable about sharing holistic practices; even quirky home remedies. As an interactive platform, URBIT is an informative resource for natural products, holistic providers, and well-being tips. ',
+                demo: 'https://powerful-cliffs-59731.herokuapp.com/',
+                code: 'https://github.com/MauriceWebb/Project_3'
+            },
+            {
                 img: '../assets/images/portfolio_images/webdevelopment/screen-shot-7.png',
                 title: 'Guestination React JS Game', 
                 // explaining the aims, outcomes, significance and benefits
